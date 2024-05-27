@@ -1,23 +1,26 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import NavBar from './components/NavBar';
 import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import ProjectsPage from './pages/Projects';
 import HobbiesPage from './pages/Hobbies';
-import path from 'path';
+// import path from 'path';
 
-const App = () => (
-  <Router>
-    <div>
-      <Route path='/' exact component={Home} />
-      <Route path='/NavBar' component={NavBar} />
-      <Route path='/about' component={About} />
-      <Route path='/projects' component={Projects} />
-      <Route path='/hobbies' component={Hobbies} />
-  </Router>
-    </div>
-);
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' exact pages={HomePage} />
+        <Route path='/navbar' component={NavBar} />
+        <Route path='/about' pages={AboutPage} />
+        <Route path='/projects' pages={ProjectsPage} />
+        <Route path='/hobbies' pages={HobbiesPage} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
 export default App;
 
