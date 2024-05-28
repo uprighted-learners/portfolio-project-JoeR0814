@@ -1,7 +1,8 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
+// import NavBar from './components/NavBar';
 
 export default function Projects() {
-  return <div>Projects</div>;
+  return <h1>Projects/</h1>;
+  <p>Here are projects i have done</p>;
 }
 
