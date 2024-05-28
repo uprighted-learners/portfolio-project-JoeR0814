@@ -6,21 +6,19 @@ import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import ProjectsPage from './pages/Projects';
 import HobbiesPage from './pages/Hobbies';
-// import path from 'path';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
-        <Route path='/' exact pages={HomePage} />
-        <Route path='/navbar' component={NavBar} />
-        <Route path='/about' pages={AboutPage} />
-        <Route path='/projects' pages={ProjectsPage} />
-        <Route path='/hobbies' pages={HobbiesPage} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/hobbies' element={<HobbiesPage />} />
       </Routes>
     </BrowserRouter>
   );
 };
 
 export default App;
-
