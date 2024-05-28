@@ -1,16 +1,13 @@
 import React from 'react';
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
-// import '../index.css';
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
-// import './App.css';
 
 function About() {
   return (
-    <div className='About'>
-      <h1>Joe's contact and thing's to know about him!</h1>
+    <>
+      <h1> Joe's contact and thing's to know about him!</h1>
 
-      <div id='contact-info'>
+      <ul>
         <li>Phone: 203-231-1234</li>
         <li>City: Shelton</li>
         <li>State: Connecticut</li>
@@ -21,124 +18,78 @@ function About() {
             LinkedIn
           </a>
         </li>
-        <li>
-          <a href='https://github.com/dashboard'>GitHub</a>
-        </li>
-      </div>
-
-      <div id='languages'>
-        <p>Languages I Know</p>
-        <ul>
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>HTML-5</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>MongoDB</li>
-          <li>Node.JS</li>
-          <li>Express</li>
-          <li>REST/JSON</li>
-        </ul>
-      </div>
-
-      <div id='tools'>
-        <p>Tools I Use</p>
-        <ul>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Postman</li>
-          <li>JWT/SSO</li>
-          <li>Netlify</li>
-          <li>Trello</li>
-          <li>BootStrap</li>
-        </ul>
-      </div>
+      </ul>
 
       <div id='learn-pic'>
         <img
-          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK8H08lXRzIyfbBqGDATggJeB8OIGCZYIPbg&s'
-          alt='learn new things'
+          src="'https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/264213786_10219268932454284_1802520244668777983_n.jpg?stp=c0.119.1440.1440a_dst-jpg_s552x414&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9RbVqHCaXV0Q7kNvgHPM5QA&_nc_ht=scontent-bos5-1.xx&cb_e2o_trans=t&oh=00_AYCjfEdoIRvgsebk3S_tBioF44Qku1ywGi95MnUuIetPpQ&oe=6656A2BC'"
+          alt='quote-pic'
         />
       </div>
 
-      <p>
-        <span style={{ color: 'lightblue' }}>
-          Hello, my name is
-          <span style={{ color: 'yellows' }}>solid" Joe Reis</span>, I am a very
-          lucky guy to have the family I have and my son, he is my world. I love
-          teaching him the things I know, he plays a big roll in my life and I
-          want to be the best I can for him, everything I do I make sure he is
-          part of it, I try to be the best I can be so he can have a great role
-          model to look up too! I am in the construction field as a labor and I
-          also am a automotive mechanic/anything with an engine I can diagnose
-          and repair.
-          <strong>
-            <span style={{ color: 'yellow' }}>
-              When I am asked what I do for work I like to say,
-              <em>"I am a Jack of all trades master of none!"</em>
-            </span>
-          </strong>
-          Meaning in my words, being a labor on a job I had to learn a lot of
-          the different trades on a job site, I had to learn their tools and
-          their materials to get the job done. wether it would be paving a
-          highway, heavy machine operator, or assist the electrician, carpenter,
-          iron worker, a plumber, ect, but whatever it maybe be, I was a great
-          team player and willing to do whatever it take to get the job done. I
-          have seen my grandfather, my own father and some uncles work
-          construction, they got hurt pretty bad and when they retired and got
-          older they are in just pain and broken after all their years of
-          working and now i'm a father and I want to change the cycle of
-          construction so my son can see me now and hope he doesn't do the
-          construction type of back breaking labor. I can now teach him how to
-          work with his hands, thats the exciting part is to pass down what I
-          know to him. I had started construction in 2011, before that I was an
-          automotive mechanic. In 2006 i had graduated high school and went
-          right into an 1 year tech school for automotive to get certified as a
-          machanic. When I was younger I would fix the tractor and other small
-          engines, then as i got older 14, 15 i started working on cars with a
-          friend learned a lot and now i work on my own cars to this day from
-          small problems to big problems replace an engine or transmission. I
-          have always found Engines very interesting my mind would wonder and
-          think how the inside of the engine all those little parts would make
-          the engine turn over, how the transmission would be the cars
-          drivetrain, the axels has two of the same ends one end would be inside
-          the transmission and the other end would be inside the wheel hub and
-          that will make the cars tires stand and roll. I had left the
-          automotive field because I wanted to make more money and joined
-          construction in 2011, it allowed me to see how more things designed
-          and built, I like to think to myself I have a mind LIKE AND ENGINEER!
-          The world is changing into a very tech world with the cars now being
-          electric and the homes being smart homes, which now brings me to my
-          next chapter in life as a software developer. I now would like to now
-          say I specializing in Full Stack software development/Engineering as
-          javascript the language I know and plan to learn more in the near
-          future. I am someone who love's to explore new things, figure out how
-          things work by using my hands and mind! I am a person that likes to be
-          busy and likes a challenged with hard work and i will do what it takes
-          to solve any problem that comes my way. I am a great team player I
-          will prove to my team and to my boss that I am a hard worker and when
-          I solve a problem by researching and or asking others for help to
-          solve the problem it gives me such great deal of self reward and
-          happiness because I have learned more new things in the process of
-          solving one problem. I believe with this new chapter im pursuing I
-          will be more . In this portfolio you will see the langues I know and
-          the tools I use to build the projects and to code with. Thank you for
-          taking the time to read a little about me and learn the new skills I
-          have and I hope you have a great day!
-        </span>
-      </p>
-
-      <figure>
-        <figcaption>
-          <picture>
-            <img
-              style={{ border: '2px red solid' }}
-              src='https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/264213786_10219268932454284_1802520244668777983_n.jpg?stp=c0.119.1440.1440a_dst-jpg_s552x414&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9RbVqHCaXV0Q7kNvgHPM5QA&_nc_ht=scontent-bos5-1.xx&cb_e2o_trans=t&oh=00_AYCjfEdoIRvgsebk3S_tBioF44Qku1ywGi95MnUuIetPpQ&oe=6656A2BC'
-            ></img>
-          </picture>
-        </figcaption>
-      </figure>
-    </div>
+      <div id='about-p'>
+        <em>
+          <p>
+            Hello, My name is Joe Reis. I am first and foremost a family man. I
+            have been fortunate to have a very loving and supportive family. My
+            son plays a big role in my life. He is part of everything I do
+            (outside of work.) I enjoy teaching him the things I know. I have
+            been caring for him since his birth and I try to be the best I can
+            be so he can have a great role model to look up to! I have had many
+            opportunities in different fields, such as in the construction field
+            as a laborer and as automotive mechanic. Anything with an engine, I
+            can diagnose and repair. When I am asked what I do for work I like
+            to say, “I am a Jack of all trades, master of none!" Meaning in my
+            words, as a laborer, I had to learn a lot of the different trades
+            applicable to a job site. I had to learn their tools and their
+            materials to get the job done. Whether it would be paving a highway,
+            heavy machine operator, or to assist the electrician, carpenter,
+            iron worker or plumber, I did whatever it took to get the job done.
+            I can be relied upon to be a great team player. I have seen fathers,
+            grandfathers and several uncles have worked in the construction
+            field. Some of them suffered serious injuries. By the time they
+            retired, they were left with much pain from years of abusing their
+            bodies. I want to change the cycle of construction workers in my
+            family. I want my son to see there is a better way to earn a living.
+            I can now teach my son how to work with his hands. This is the
+            exciting part, to pass down to him what I know. I started working in
+            construction in 2011, as a Union member. Prior to that, I was an
+            Automotive Mechanic. In 2006, after High School graduation, I
+            enrolled in a one-year tech school for Automotive, graduating with a
+            certificate in Automotive Mechanics. When I was younger, I would fix
+            the tractor and other small engines. At ages 14, 15, I started
+            working on cars with a friend. It was then that I found my passion
+            for engines. I was totally intrigued by the inside of the engine.
+            Automotive will always be something I enjoy as a hobby! Because the
+            Automotive field did not bring the salary I desired, in 2011, I
+            joined the Laborers’ Construction Union. The Construction field
+            allowed me to also experience how things were designed and built.
+            Learning how things are built and / or function is really something
+            that motivates me to learn the “how”. I like to think of myself as
+            having a mind LIKE AND ENGINEER! The way technology is always
+            changing, with many cars now being electric and the homes being
+            smart homes, etc., has inspired me to start my next chapter in my
+            career as a Software Developer. I am proud to say that I am
+            specializing in Full Stack Software Development/Engineering,
+            JavaScript language. I am excited to continue to learn. One of my
+            strongest attributes is to figure out how things work by using my
+            hands and my mind by researching and perseverance. I am assertive
+            when it comes to challenges and hard work. I will do what it takes
+            to solve any problem that comes my way. I am a great team player. I
+            will work with my team and prove to my team and/or manager that I am
+            a hard worker. It gives me a great deal of satisfaction and
+            happiness to be able to solve problems by researching in many
+            different forms, as needed. I find that I learn more things while in
+            the process of solving a particular problem. I believe that in this
+            new chapter that I’m pursuing, my learning will continue to evolve.
+            In this portfolio, you will see the languages I know and the tools I
+            use to build the projects to code with. Thank you for taking the
+            time to read this, learn a little about me and the new skills I have
+            acquired. I hope you have a great day! Sincerely,
+          </p>
+        </em>
+      </div>
+    </>
   );
 }
 
