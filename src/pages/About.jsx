@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar';
 function About() {
   return (
     <>
-      <h1> Joe's contact and thing's to know about him!</h1>
+      <h1>My info/Things About me!</h1>
 
       <ul>
         <li>Phone: 203-231-1234</li>
