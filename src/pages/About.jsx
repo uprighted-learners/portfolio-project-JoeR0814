@@ -128,7 +128,7 @@ function About() {
         <figcaption>
           <picture>
             <img
-              style='border:2px red solid'
+              style={{ border: '2px red solid' }}
               src='https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/264213786_10219268932454284_1802520244668777983_n.jpg?stp=c0.119.1440.1440a_dst-jpg_s552x414&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9RbVqHCaXV0Q7kNvgHPM5QA&_nc_ht=scontent-bos5-1.xx&cb_e2o_trans=t&oh=00_AYCjfEdoIRvgsebk3S_tBioF44Qku1ywGi95MnUuIetPpQ&oe=6656A2BC'
             ></img>
           </picture>
