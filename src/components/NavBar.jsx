@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function NavBar() {
   return (
@@ -7,16 +8,13 @@ export default function NavBar() {
       <nav>
         <ol>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/Home'>Home</Link>
           </li>
           <li>
             <Link to='/about'>About</Link>
           </li>
           <li>
             <Link to='/projects'>Projects</Link>
-          </li>
-          <li>
-            <Link to='/hobbies'>Hobbies</Link>
           </li>
         </ol>
       </nav>

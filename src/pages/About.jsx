@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import './App.css';
-
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+// import '../index.css';
 import NavBar from '../components/NavBar';
+// import './App.css';
 
 function About() {
   return (

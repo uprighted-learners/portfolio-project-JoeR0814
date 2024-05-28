@@ -1,19 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// import '../index.css';
+import '../App.css';
 
-// import NavBar from '../components/NavBar';
+import NavBar from '../components/NavBar';
 
 export default function HomePage() {
   return (
     <>
       <h1>Joe Reis's Portfolio</h1>
-      <div id='name'>
+      <div id='home-p'>
         <p>
-          Hello, I am a software Developer who knows the javascript language. I
-          use visual studio code to build my projects and use github to create
-          my project repo's. In this portfolio I will tell you more about
-          myself, the projects I have done,past job history and how I became a
-          software developer!
+          Hello, I am someone who is shooting for the stars and doing whatever
+          it takes to get there for my family and I! I am a software Developer,
+          in this portfolio I will tell a bit about myself, my projects ,past
+          job history, and how I became a software developer!
         </p>
       </div>
 
