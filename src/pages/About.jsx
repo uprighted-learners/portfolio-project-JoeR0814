@@ -38,39 +38,44 @@ function About() {
             be so he can have a great role model to look up to! I have had many
             opportunities in different fields, such as in the construction field
             as a laborer and as automotive mechanic. Anything with an engine, I
-            can diagnose and repair. When I am asked what I do for work I like
-            to say, “I am a Jack of all trades, master of none!" Meaning in my
-            words, as a laborer, I had to learn a lot of the different trades
-            applicable to a job site. I had to learn their tools and their
-            materials to get the job done. Whether it would be paving a highway,
-            heavy machine operator, or to assist the electrician, carpenter,
-            iron worker or plumber, I did whatever it took to get the job done.
-            I can be relied upon to be a great team player. I have seen fathers,
-            grandfathers and several uncles have worked in the construction
-            field. Some of them suffered serious injuries. By the time they
-            retired, they were left with much pain from years of abusing their
-            bodies. I want to change the cycle of construction workers in my
-            family. I want my son to see there is a better way to earn a living.
-            I can now teach my son how to work with his hands. This is the
-            exciting part, to pass down to him what I know. I started working in
-            construction in 2011, as a Union member. Prior to that, I was an
-            Automotive Mechanic. In 2006, after High School graduation, I
-            enrolled in a one-year tech school for Automotive, graduating with a
-            certificate in Automotive Mechanics. When I was younger, I would fix
-            the tractor and other small engines. At ages 14, 15, I started
-            working on cars with a friend. It was then that I found my passion
-            for engines. I was totally intrigued by the inside of the engine.
-            Automotive will always be something I enjoy as a hobby! Because the
-            Automotive field did not bring the salary I desired, in 2011, I
-            joined the Laborers’ Construction Union. The Construction field
-            allowed me to also experience how things were designed and built.
-            Learning how things are built and / or function is really something
-            that motivates me to learn the “how”. I like to think of myself as
-            having a mind LIKE AND ENGINEER! The way technology is always
-            changing, with many cars now being electric and the homes being
-            smart homes, etc., has inspired me to start my next chapter in my
-            career as a Software Developer. I am proud to say that I am
-            specializing in Full Stack Software Development/Engineering,
+            can diagnose and repair.
+            <strong>
+              <em>
+                When I am asked what I do for work I like to say, “I am a Jack
+                of all trades, master of none!" Meaning in my words, as a
+                laborer, I had to learn a lot of the different trades applicable
+                to a job site. I had to learn their tools and their materials to
+                get the job done. Whether it would be paving a highway, heavy
+                machine operator, or to assist the electrician, carpenter, iron
+                worker or plumber, I did whatever it took to get the job done. I
+                can be relied upon to be a great team player.
+              </em>
+            </strong>
+            I have seen fathers, grandfathers and several uncles have worked in
+            the construction field. Some of them suffered serious injuries. By
+            the time they retired, they were left with much pain from years of
+            abusing their bodies. I want to change the cycle of construction
+            workers in my family. I want my son to see there is a better way to
+            earn a living. I can now teach my son how to work with his hands.
+            This is the exciting part, to pass down to him what I know. I
+            started working in construction in 2011, as a Union member. Prior to
+            that, I was an Automotive Mechanic. In 2006, after High School
+            graduation, I enrolled in a one-year tech school for Automotive,
+            graduating with a certificate in Automotive Mechanics. When I was
+            younger, I would fix the tractor and other small engines. At ages
+            14, 15, I started working on cars with a friend. It was then that I
+            found my passion for engines. I was totally intrigued by the inside
+            of the engine. Automotive will always be something I enjoy as a
+            hobby! Because the Automotive field did not bring the salary I
+            desired, in 2011, I joined the Laborers’ Construction Union. The
+            Construction field allowed me to also experience how things were
+            designed and built. Learning how things are built and / or function
+            is really something that motivates me to learn the “how”. I like to
+            think of myself as having a mind LIKE AND ENGINEER! The way
+            technology is always changing, with many cars now being electric and
+            the homes being smart homes, etc., has inspired me to start my next
+            chapter in my career as a Software Developer. I am proud to say that
+            I am specializing in Full Stack Software Development/Engineering,
             JavaScript language. I am excited to continue to learn. One of my
             strongest attributes is to figure out how things work by using my
             hands and my mind by researching and perseverance. I am assertive

@@ -15,3 +15,8 @@ nav li {
   margin: 1em;
 }
 
+* {
+  color: blue;
+  font-size: 1.1em;
+}
+

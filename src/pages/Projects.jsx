@@ -12,12 +12,17 @@ export default function Projects() {
       <a href='https://github.com/dashboard'>GitHub</a>
 
       <div id='projects-p'>
-        <p>Here are projects i have done</p>
+        <p>
+          Here is a link to where you can see all my projects i have done
+          through my bootcamp. There is a list of lanuages i know and the tools
+          i use to get code done i am in the proccess of looking more into
+          bootstrap and typescript.
+        </p>
       </div>
 
-      <div id='languages'>
-        <p>Languages I Know</p>
+      <div id='languages I know'>
         <ul>
+          <li>Languages I Know!</li>
           <li>Javascript</li>
           <li>HTML</li>
           <li>HTML-5</li>
@@ -30,8 +35,8 @@ export default function Projects() {
         </ul>
       </div>
       <div id='tools'>
-        <p>Tools I Use</p>
         <ul>
+          <li>A list of tools I use!</li>
           <li>Git</li>
           <li>GitHub</li>
           <li>Postman</li>
