@@ -12,10 +12,13 @@ export default function HomePage() {
       <h1>Joe Reis's Portfolio</h1>
       <div id='home-p'>
         <p>
-          Hello, I am someone who is shooting for the stars and doing whatever
-          it takes to get there for my family and I! I am a software Developer,
-          in this portfolio I will tell a bit about myself, my projects ,past
-          job history, and how I became a software developer!
+          Looking out my friend's window in their high rise apartment in the
+          city gave me the inspiration for shooting for the stars and doing
+          whatever it takes to get there for my family and myself, I believe
+          become a software Developer is a great accomplishment and a great step
+          for shooting for the stars. In this portfolio I will tell a bit about
+          myself, my projects ,past job history, and how I became a software
+          developer!
         </p>
       </div>
 
