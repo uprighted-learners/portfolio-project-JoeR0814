@@ -14,3 +14,14 @@ nav li {
   display: inline-block;
   margin: 1em;
 }
+
+* {
+  color: blue;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
